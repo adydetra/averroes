@@ -6,6 +6,10 @@
     .navbar li a:nth-child(1) {
         margin-top: 1rem;
     }
+
+    .navbar img {
+        width: 100px;
+    }
  
     #hero {
         padding: 0 2rem;
