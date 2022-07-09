@@ -8,7 +8,7 @@
     }
 
     .navbar img {
-        width: 100px;
+        width: 50px;
     }
  
     #hero {
@@ -22,4 +22,19 @@
     #about-company img {
         height: unset !important;
     }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar li a {
+        padding: 0.6rem 0 !important;
+    }
+
+    .navbar li a:nth-child(1) {
+        margin-top: 1rem;
+    }
+
+    .navbar img {
+        width: 100px;
+    }
+
 }

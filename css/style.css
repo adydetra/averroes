@@ -4,13 +4,13 @@
 Copyright   : Adityawarman Dewa Putra
 
 Project		  :	Company Profile
-Dibuat	    :	05/07/2022
+Created     :	05/07/2022
 Instagram   : @741_dewa -- @all_dewa_works
 -------------------------------------------------------------------*/
 
 
 /*-------------------------------------------------------------------
-[Judul]
+[Title]
 
 0. Default
 1. Navigation
@@ -19,7 +19,8 @@ Instagram   : @741_dewa -- @all_dewa_works
 4. About Company
 5. Portfolio
 6. Client
-7. Contact
+7. Partner
+8. Contact
 -------------------------------------------------------------------*/
 
 
@@ -79,7 +80,7 @@ h2 {
 }
 
 section:before {
-  height: 54px;
+  height: 70px;
   content: "";
   display:block;
 }
@@ -129,7 +130,6 @@ section:before {
 [3. Services]
 *------------------------------------------------------------------*/
 #services .box {
-  /* width: 170px; */
   height: 170px;
   background: #4491f7;
   font-size: 42px;
@@ -150,12 +150,8 @@ section:before {
 /*-------------------------------------------------------------------
 [4. About Company]
 *------------------------------------------------------------------*/
-#about-company .col-md-6 p {
-  line-height: 2rem;
-}
-
-#about-company img {
-  height: 525px;
+#about-company p {
+  text-align: justify;
 }
 
 
@@ -187,7 +183,13 @@ section:before {
 
 
 /*-------------------------------------------------------------------
-[7. Contact]
+[7. Client]
+*------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------
+[8. Contact]
 *------------------------------------------------------------------*/
 .s-icon {
   color: #FFF;
