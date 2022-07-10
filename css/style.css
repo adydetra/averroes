@@ -85,6 +85,12 @@ section:before {
   display:block;
 }
 
+#hero:before {
+  height: 0px;
+  content: "";
+  display:block;
+}
+
 
 /*-------------------------------------------------------------------
 [1. Navbar]
