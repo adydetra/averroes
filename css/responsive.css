@@ -16,7 +16,11 @@
     }
 
     #hero h1 {
-        font-size: 38px;
+        font-size: 28px;
+    }
+
+    #hero p {
+        font-size: 18px;
     }
 
     #about-company img {
